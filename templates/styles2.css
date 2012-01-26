@@ -1,0 +1,69 @@
+body {
+	margin: 0 auto;
+	width: 960px;
+	font: 14px/20px "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+	background: #271408 url("images/bodybkg.gif") repeat;
+	}
+  
+#card {
+	width: 420px;
+	clear: both;
+	color: #f2ede7;
+	overflow: hidden;
+  padding: 10px;
+	padding-top: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	height: 600px;
+	margin-bottom: 10px;
+  background-color: #EEEEEE;
+}
+
+#card .block {
+	width: 89%;  /*Took 1% off of the width to prevent IE6 bug*/
+	padding: 5%;
+	background:#d6a965;
+	display: block;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	}
+
+
+#headline {
+	font-size: 20px;
+	text-shadow: 2px 2px 2px #000;
+	color: #FFFFFF;
+  margin-bottom: 20px;
+	}
+
+
+#poster img {
+  /*Flexible image size with border*/
+	width: 89%;  /*Took 1% off of the width to prevent IE6 bug*/
+	padding: 5%;
+	background:#fff;
+	margin: 0 auto;
+	display: block;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+  box-shadow: 10px 10px 5px #555;
+  -ms-interpolation-mode: bicubic; /*prevents image pixelation IE 6/7 */
+	}
+
+genre {
+	float: right;
+}
+
+#facts li  {
+    background-color: #EEEEEE;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: left;
+    color: #271408;
+    font-style: italic;
+
+}
+
+
