@@ -1,0 +1,27 @@
+
+---
+movies:
+  - name: Insidious 
+    studio: Sony
+    tomatoes: 67
+    score: 65
+    story: Monster force
+    genre: Horror
+    worldwidegross: 97
+    budget: 1.5
+    profitability: 6467
+    year: 2011
+  - name: Bad teacher 
+    studio: Independent
+    tomatoes: 44
+    score: 38
+    story: Comedy
+    genre: Comedy
+    worldwidegross: 216
+    budget: 20
+    profitability: 1081
+    year: 2011
+
+
+
+---
